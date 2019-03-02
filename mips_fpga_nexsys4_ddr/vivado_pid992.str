@@ -96,3 +96,103 @@ Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // Project name: mips; location: Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr; part: xc7a100tcsg324-1
 dismissDialog("Open Project"); // bx (ck)
 // TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 179 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd)]", 3); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), cont : controller(struct) (mips_controller.vhd)]", 4, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), cont : controller(struct) (mips_controller.vhd)]", 4, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), cont : controller(struct) (mips_controller.vhd), md : maindec(behave) (mips_decoder_main.vhd)]", 5, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), cont : controller(struct) (mips_controller.vhd), md : maindec(behave) (mips_decoder_main.vhd)]", 5, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), cont : controller(struct) (mips_controller.vhd)]", 4, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), cont : controller(struct) (mips_controller.vhd)]", 4, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), cont : controller(struct) (mips_controller.vhd)]", 4); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), cont : controller(struct) (mips_controller.vhd), md : maindec(behave) (mips_decoder_main.vhd)]", 5, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), cont : controller(struct) (mips_controller.vhd), md : maindec(behave) (mips_decoder_main.vhd)]", 5, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("mips_decoder_main.vhd", 341, 363); // ce (w, ck)
+selectCodeEditor("mips_decoder_main.vhd", 253, 363); // ce (w, ck)
+selectCodeEditor("mips_decoder_main.vhd", 422, 367); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 88 MB (+846kb) [00:03:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 642 MB. GUI used memory: 46 MB. Current time: 3/2/19 3:36:56 PM PST
+// [Engine Memory]: 646 MB (+1251kb) [00:04:26]
+// Elapsed time: 39 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), cont : controller(struct) (mips_controller.vhd), ad : aludec(behave) (mips_decoder_alu.vhd)]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), cont : controller(struct) (mips_controller.vhd), ad : aludec(behave) (mips_decoder_alu.vhd)]", 6, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("mips_decoder_alu.vhd", 435, 249); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 36 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_decoder_main.vhd", 4); // k (j, ck)
+// Elapsed time: 24 seconds
+selectCodeEditor("mips_decoder_main.vhd", 304, 211); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 94 MB (+1494kb) [00:05:56]
+// Elapsed time: 41 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_decoder_alu.vhd", 5); // k (j, ck)
+// Elapsed time: 18 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), dp : datapath(struct) (mips_datapath.vhd)]", 7); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), dp : datapath(struct) (mips_datapath.vhd), mainalu : alu(behave) (mips_alu.vhd)]", 19, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, computer_top(computer_top) (computer_top.vhd), mips1 : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), dp : datapath(struct) (mips_datapath.vhd), mainalu : alu(behave) (mips_alu.vhd)]", 19, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("mips_alu.vhd", 173, 373); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_decoder_main.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_decoder_alu.vhd", 5); // k (j, ck)
+selectCodeEditor("mips_decoder_alu.vhd", 87, 266); // ce (w, ck)
+selectCodeEditor("mips_decoder_alu.vhd", 247, 261); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_alu.vhd", 6); // k (j, ck)
+selectCodeEditor("mips_alu.vhd", 389, 183); // ce (w, ck)
+selectCodeEditor("mips_alu.vhd", 140, 310); // ce (w, ck)
+selectCodeEditor("mips_alu.vhd", 199, 319); // ce (w, ck)
+selectCodeEditor("mips_alu.vhd", 136, 315); // ce (w, ck)
+selectCodeEditor("mips_alu.vhd", 413, 297); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_decoder_main.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_decoder_alu.vhd", 5); // k (j, ck)
+selectCodeEditor("mips_decoder_alu.vhd", 242, 232); // ce (w, ck)
+selectCodeEditor("mips_decoder_alu.vhd", 247, 252); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_alu.vhd", 6); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_decoder_alu.vhd", 5); // k (j, ck)
+selectCodeEditor("mips_decoder_alu.vhd", 245, 227); // ce (w, ck)
+selectCodeEditor("mips_decoder_alu.vhd", 245, 252); // ce (w, ck)
+selectCodeEditor("mips_decoder_alu.vhd", 245, 264); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_alu.vhd", 6); // k (j, ck)
+selectCodeEditor("mips_alu.vhd", 156, 339); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_decoder_alu.vhd", 5); // k (j, ck)
+selectCodeEditor("mips_decoder_alu.vhd", 245, 229); // ce (w, ck)
+selectCodeEditor("mips_decoder_alu.vhd", 244, 249); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_alu.vhd", 6); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_decoder_alu.vhd", 5); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_decoder_main.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_alu.vhd", 6); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_decoder_alu.vhd", 5); // k (j, ck)
+selectCodeEditor("mips_decoder_alu.vhd", 252, 267); // ce (w, ck)
+selectCodeEditor("mips_decoder_alu.vhd", 728, 277); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 99 MB (+534kb) [00:09:00]
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_alu.vhd", 6); // k (j, ck)
+selectCodeEditor("mips_alu.vhd", 227, 365); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 28 seconds
+selectCodeEditor("mips_alu.vhd", 256, 215); // ce (w, ck)

@@ -32,6 +32,7 @@ begin
     a and b when "00",
     a or b  when "01",
     sum     when "10",
+    a xor b when "11",
     slt     when others;
 	
   -- set the zero flag if result is 0

@@ -22,7 +22,7 @@ begin
       when "000100" => controls <= "0X010X001"; -- BEQ
       when "001000" => controls <= "101000000"; -- ADDI
       when "000010" => controls <= "0XXX0X1XX"; -- J
-      when "001110" => controls <= ""; --XORI
+      when "001110" => controls <= "101000100"; --XORI
       when others   => controls <= "---------"; -- illegal op
     end case;
   end process;
