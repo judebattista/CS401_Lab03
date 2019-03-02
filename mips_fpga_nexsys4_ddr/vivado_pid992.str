@@ -1,0 +1,98 @@
+/*
+
+Xilinx Vivado v2018.2.1 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2288692 on Thu Jul 26 18:24:02 MDT 2018
+IP Build: 2289599 on Thu Jul 26 21:09:20 MDT 2018
+
+Process ID: 992
+License: Customer
+
+Current time: 	Sat Mar 02 15:33:08 PST 2019
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 97 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	jabbott19
+User home directory: C:/Users/jabbott19
+User working directory: Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/jabbott19/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/jabbott19/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/jabbott19/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/vivado.log
+Vivado journal file location: 	Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/vivado.jou
+Engine tmp dir: 	Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/.Xil/Vivado-992-LAB-SCI-214-07
+
+Xilinx Environment Variables
+----------------------------
+VK_SDK_PATH: C:\Dev\1.1.77.0
+VULKAN_SDK: C:\Dev\1.1.77.0
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	204 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 513 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: Z:\CS-401-1-CompArch\MIPS_3\mips_fpga_nexsys4_ddr\mips.xpr. Version: Vivado v2018.2.1 
+// [GUI Memory]: 60 MB (+60046kb) [00:00:07]
+// [Engine Memory]: 483 MB (+355322kb) [00:00:07]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 83 MB (+21588kb) [00:00:11]
+// [Engine Memory]: 583 MB (+79389kb) [00:00:11]
+// [Engine Memory]: 614 MB (+1324kb) [00:00:14]
+// HMemoryUtils.trashcanNow. Engine heap size: 620 MB. GUI used memory: 43 MB. Current time: 3/2/19 3:33:15 PM PST
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 894.203 ; gain = 156.871 
+// Project name: mips; location: Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
