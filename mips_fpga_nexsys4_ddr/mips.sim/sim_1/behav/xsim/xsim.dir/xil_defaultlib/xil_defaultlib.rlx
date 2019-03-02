@@ -1,0 +1,22 @@
+0.6
+2018.2
+Jul 26 2018
+19:36:16
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sim_1/imports/Desktop/mips_testbench.vhd,1510625755,vhdl,,,,mips_testbench,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/computer_top.vhd,1510625864,vhdl,,,,computer_top,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/display_hex.vhd,1510624748,vhdl,,,,display_hex,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd,1510536685,vhdl,,,,mips,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_adder.vhd,1510503271,vhdl,,,,adder,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_alu.vhd,1510511178,vhdl,,,,alu,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd,1510511838,vhdl,,,,controller,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd,1510511129,vhdl,,,,datapath,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_alu.vhd,1394398630,vhdl,,,,aludec,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_main.vhd,1394412252,vhdl,,,,maindec,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_flip_flop_register.vhd,1510509685,vhdl,,,,flopr,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_data.vhd,1510527591,vhdl,,,,dmem,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_instructions.vhd,1551384769,vhdl,,,,imem,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd,1510502751,vhdl,,,,mux2,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_register_file.vhd,1510511140,vhdl,,,,regfile,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_shift_left_by_2.vhd,1510502227,vhdl,,,,sl2,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_sign_extender.vhd,1510524196,vhdl,,,,signext,,,,,,,,
+Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd,1510622234,vhdl,,,,mips_top,,,,,,,,
