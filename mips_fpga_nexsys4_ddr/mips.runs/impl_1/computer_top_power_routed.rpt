@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
-| Date             : Thu Feb 28 12:15:52 2019
-| Host             : LAB-SCI-214-03 running 64-bit major release  (build 9200)
+| Date             : Sat Mar  2 16:57:10 2019
+| Host             : LAB-SCI-214-07 running 64-bit major release  (build 9200)
 | Command          : report_power -file computer_top_power_routed.rpt -pb computer_top_power_summary_routed.pb -rpx computer_top_power_routed.rpx
 | Design           : computer_top
 | Device           : xc7a100tcsg324-1
@@ -29,20 +29,20 @@ Table of Contents
 1. Summary
 ----------
 
-+--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 14.947 (Junction temp exceeded!) |
-| Design Power Budget (W)  | Unspecified*                     |
-| Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 14.609                           |
-| Device Static (W)        | 0.338                            |
-| Effective TJA (C/W)      | 4.6                              |
-| Max Ambient (C)          | 16.8                             |
-| Junction Temperature (C) | 93.2                             |
-| Confidence Level         | Low                              |
-| Setting File             | ---                              |
-| Simulation Activity File | ---                              |
-| Design Nets Matched      | NA                               |
-+--------------------------+----------------------------------+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 12.658       |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 12.402       |
+| Device Static (W)        | 0.256        |
+| Effective TJA (C/W)      | 4.6          |
+| Max Ambient (C)          | 27.2         |
+| Junction Temperature (C) | 82.8         |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
 * Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
 
 
@@ -52,17 +52,17 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Slice Logic              |     2.506 |      498 |       --- |             --- |
-|   LUT as Logic           |     1.964 |      265 |     63400 |            0.42 |
-|   LUT as Distributed RAM |     0.452 |       80 |     19000 |            0.42 |
-|   CARRY4                 |     0.062 |       19 |     15850 |            0.12 |
-|   Register               |     0.017 |       35 |    126800 |            0.03 |
+| Slice Logic              |     1.362 |      442 |       --- |             --- |
+|   LUT as Logic           |     1.253 |      198 |     63400 |            0.31 |
+|   CARRY4                 |     0.045 |       19 |     15850 |            0.12 |
+|   LUT as Distributed RAM |     0.034 |       80 |     19000 |            0.42 |
+|   Register               |     0.018 |       35 |    126800 |            0.03 |
 |   BUFG                   |     0.012 |        2 |        32 |            6.25 |
 |   Others                 |     0.000 |        8 |       --- |             --- |
-| Signals                  |     2.975 |      451 |       --- |             --- |
-| I/O                      |     9.129 |       22 |       210 |           10.48 |
-| Static Power             |     0.338 |          |           |                 |
-| Total                    |    14.947 |          |           |                 |
+| Signals                  |     1.555 |      369 |       --- |             --- |
+| I/O                      |     9.484 |       22 |       210 |           10.48 |
+| Static Power             |     0.256 |          |           |                 |
+| Total                    |    12.658 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -72,16 +72,16 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     5.690 |       5.485 |      0.205 |
-| Vccaux    |       1.800 |     0.377 |       0.334 |      0.043 |
-| Vcco33    |       3.300 |     2.587 |       2.583 |      0.004 |
+| Vccint    |       1.000 |     3.063 |       2.921 |      0.142 |
+| Vccaux    |       1.800 |     0.382 |       0.347 |      0.034 |
+| Vcco33    |       3.300 |     2.687 |       2.683 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.006 |       0.000 |      0.006 |
+| Vccbram   |       1.000 |     0.004 |       0.000 |      0.004 |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
@@ -139,61 +139,61 @@ Table of Contents
 +---------------------------------+-----------+
 | Name                            | Power (W) |
 +---------------------------------+-----------+
-| computer_top                    |    14.609 |
-|   display                       |     0.370 |
-|   mips1                         |     5.088 |
-|     dmem1                       |     0.056 |
-|       mem_reg_0_63_0_0          |     0.003 |
-|       mem_reg_0_63_10_10        |     0.002 |
-|       mem_reg_0_63_11_11        |     0.002 |
-|       mem_reg_0_63_12_12        |     0.002 |
-|       mem_reg_0_63_13_13        |     0.002 |
-|       mem_reg_0_63_14_14        |     0.002 |
-|       mem_reg_0_63_15_15        |     0.002 |
-|       mem_reg_0_63_16_16        |     0.002 |
-|       mem_reg_0_63_17_17        |     0.001 |
-|       mem_reg_0_63_18_18        |     0.002 |
-|       mem_reg_0_63_19_19        |     0.001 |
-|       mem_reg_0_63_1_1          |     0.003 |
-|       mem_reg_0_63_20_20        |     0.001 |
-|       mem_reg_0_63_21_21        |     0.001 |
-|       mem_reg_0_63_22_22        |     0.001 |
-|       mem_reg_0_63_23_23        |     0.001 |
-|       mem_reg_0_63_24_24        |     0.001 |
-|       mem_reg_0_63_25_25        |     0.002 |
-|       mem_reg_0_63_26_26        |     0.002 |
-|       mem_reg_0_63_27_27        |     0.002 |
-|       mem_reg_0_63_28_28        |     0.001 |
-|       mem_reg_0_63_29_29        |     0.002 |
-|       mem_reg_0_63_2_2          |     0.003 |
-|       mem_reg_0_63_30_30        |     0.002 |
-|       mem_reg_0_63_31_31        |     0.002 |
-|       mem_reg_0_63_3_3          |     0.002 |
-|       mem_reg_0_63_4_4          |     0.001 |
-|       mem_reg_0_63_5_5          |     0.001 |
-|       mem_reg_0_63_6_6          |     0.002 |
-|       mem_reg_0_63_7_7          |     0.002 |
-|       mem_reg_0_63_8_8          |     0.002 |
-|       mem_reg_0_63_9_9          |     0.002 |
-|     mips1                       |     5.032 |
-|       dp                        |     5.032 |
-|         mainalu                 |     0.346 |
-|         pcadd1                  |     0.039 |
-|         pcadd2                  |     0.035 |
-|         pcreg                   |     3.874 |
-|         rf                      |     0.737 |
-|           mem_reg_r1_0_31_0_5   |     0.073 |
-|           mem_reg_r1_0_31_12_17 |     0.061 |
-|           mem_reg_r1_0_31_18_23 |     0.064 |
-|           mem_reg_r1_0_31_24_29 |     0.068 |
-|           mem_reg_r1_0_31_30_31 |     0.022 |
-|           mem_reg_r1_0_31_6_11  |     0.064 |
-|           mem_reg_r2_0_31_0_5   |     0.086 |
-|           mem_reg_r2_0_31_12_17 |     0.068 |
-|           mem_reg_r2_0_31_18_23 |     0.066 |
-|           mem_reg_r2_0_31_24_29 |     0.063 |
-|           mem_reg_r2_0_31_30_31 |     0.029 |
-|           mem_reg_r2_0_31_6_11  |     0.073 |
+| computer_top                    |    12.402 |
+|   display                       |     0.195 |
+|   mips1                         |     2.699 |
+|     dmem1                       |     0.004 |
+|       mem_reg_0_63_0_0          |    <0.001 |
+|       mem_reg_0_63_10_10        |    <0.001 |
+|       mem_reg_0_63_11_11        |    <0.001 |
+|       mem_reg_0_63_12_12        |    <0.001 |
+|       mem_reg_0_63_13_13        |    <0.001 |
+|       mem_reg_0_63_14_14        |    <0.001 |
+|       mem_reg_0_63_15_15        |    <0.001 |
+|       mem_reg_0_63_16_16        |    <0.001 |
+|       mem_reg_0_63_17_17        |    <0.001 |
+|       mem_reg_0_63_18_18        |    <0.001 |
+|       mem_reg_0_63_19_19        |    <0.001 |
+|       mem_reg_0_63_1_1          |    <0.001 |
+|       mem_reg_0_63_20_20        |    <0.001 |
+|       mem_reg_0_63_21_21        |    <0.001 |
+|       mem_reg_0_63_22_22        |    <0.001 |
+|       mem_reg_0_63_23_23        |    <0.001 |
+|       mem_reg_0_63_24_24        |    <0.001 |
+|       mem_reg_0_63_25_25        |    <0.001 |
+|       mem_reg_0_63_26_26        |    <0.001 |
+|       mem_reg_0_63_27_27        |    <0.001 |
+|       mem_reg_0_63_28_28        |    <0.001 |
+|       mem_reg_0_63_29_29        |    <0.001 |
+|       mem_reg_0_63_2_2          |    <0.001 |
+|       mem_reg_0_63_30_30        |    <0.001 |
+|       mem_reg_0_63_31_31        |    <0.001 |
+|       mem_reg_0_63_3_3          |    <0.001 |
+|       mem_reg_0_63_4_4          |    <0.001 |
+|       mem_reg_0_63_5_5          |    <0.001 |
+|       mem_reg_0_63_6_6          |    <0.001 |
+|       mem_reg_0_63_7_7          |    <0.001 |
+|       mem_reg_0_63_8_8          |    <0.001 |
+|       mem_reg_0_63_9_9          |    <0.001 |
+|     mips1                       |     2.695 |
+|       dp                        |     2.695 |
+|         mainalu                 |     0.034 |
+|         pcadd1                  |     0.052 |
+|         pcadd2                  |     0.044 |
+|         pcreg                   |     2.330 |
+|         rf                      |     0.234 |
+|           mem_reg_r1_0_31_0_5   |     0.009 |
+|           mem_reg_r1_0_31_12_17 |     0.004 |
+|           mem_reg_r1_0_31_18_23 |     0.002 |
+|           mem_reg_r1_0_31_24_29 |     0.002 |
+|           mem_reg_r1_0_31_30_31 |    <0.001 |
+|           mem_reg_r1_0_31_6_11  |     0.004 |
+|           mem_reg_r2_0_31_0_5   |     0.010 |
+|           mem_reg_r2_0_31_12_17 |     0.005 |
+|           mem_reg_r2_0_31_18_23 |     0.003 |
+|           mem_reg_r2_0_31_24_29 |     0.003 |
+|           mem_reg_r2_0_31_30_31 |     0.001 |
+|           mem_reg_r2_0_31_6_11  |     0.005 |
 +---------------------------------+-----------+
 
 
