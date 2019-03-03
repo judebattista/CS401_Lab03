@@ -498,3 +498,4 @@ selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation S
 selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, mips_testbench(mips_testbench) (mips_testbench.vhd), dut : mips_top(mips_top) (mips_top.vhd), mips1 : mips(struct) (mips.vhd), cont : controller(struct) (mips_controller.vhd)]", 18, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
 selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, mips_testbench(mips_testbench) (mips_testbench.vhd)]", 15, true); // B (D, ck) - Node
 selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, mips_testbench(mips_testbench) (mips_testbench.vhd)]", 15, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// [GUI Memory]: 141 MB (+529kb) [00:41:49]
