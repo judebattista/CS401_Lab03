@@ -245,3 +245,6 @@ selectCodeEditor("mips_alu.vhd", 256, 215); // ce (w, ck)
 // WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2271 ms to process. Increasing delay to 5000 ms.
 // WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6845 ms. Increasing delay to 6000 ms.
 // WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6727 ms. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 45 MB. Current time: 3/2/19 4:36:56 PM PST
+// Elapsed time: 3513 seconds
+typeControlKey((HResource) null, "mips_alu.vhd", 'c'); // ce (w, ck)
