@@ -8,5 +8,14 @@
 # Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9924 Z:\CS-401-1-CompArch\MIPS_3\mips_fpga_nexsys4_ddr\mips.xpr
 # Log file: Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/vivado.log
 # Journal file: Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr\vivado.jou
-#-----------------------------------------------------------sstart_guioopen_project Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.xpr
-synth_design -rtl -name rtl_1
+#-----------------------------------------------------------sstart_guioopen_project Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.xprreset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+launch_simulation
+source mips_testbench.tcl
+restart
+run 140 ns
+close_sim
+launch_simulation
+source mips_testbench.tcl
