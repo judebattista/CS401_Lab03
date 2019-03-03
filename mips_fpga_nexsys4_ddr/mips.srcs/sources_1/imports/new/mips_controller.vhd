@@ -33,7 +33,9 @@ begin
                        alusrc => alusrc, regdst => regdst, regwrite => regwrite, jump => jump, aluop => aluop);
   ad: aludec port map(funct => funct, aluop => aluop, alucontrol => alucontrol);
 
-  pcsrc <= branch and zero;
+  -- replace zero with a selection between zero and not zero 
+  -- if bne then flip zero
+  pcsrc <= branch and not zero when op = "000101" else branch and zero;
 end;
 
 
