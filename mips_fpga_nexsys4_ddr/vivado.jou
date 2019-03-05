@@ -20,3 +20,4 @@ source mips_testbench.tcl
 save_wave_config {Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mipsTest.wcfg}
 launch_runs impl_1 -to_step write_bitstream -jobs 4
 wait_on_run impl_1
+close_sim
