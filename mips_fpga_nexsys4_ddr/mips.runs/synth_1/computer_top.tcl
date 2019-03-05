@@ -17,40 +17,44 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param synth.incrementalSynthesisCache Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/.Xil/Vivado-5336-LAB-SCI-214-01/incrSyn
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7a100tcsg324-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.cache/wt [current_project]
-set_property parent.project_path Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.xpr [current_project]
+set_property webtalk.parent_dir Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.cache/wt [current_project]
+set_property parent.project_path Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:nexys4_ddr:part0:1.1 [current_project]
-set_property ip_output_repo z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.cache/ip [current_project]
+set_property ip_output_repo z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_mem {
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/memfile.dat
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/memfile_2.dat
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/memfile.dat
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/memfile_2.dat
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/memfile_3.dat
 }
 read_vhdl -library xil_defaultlib {
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_instructions.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_shift_left_by_2.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_alu.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_adder.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_data.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_alu.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_main.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/computer_top.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_register_file.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_sign_extender.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/display_hex.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_flip_flop_register.vhd
-  Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_instructions.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_shift_left_by_2.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_alu.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_adder.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_data.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_alu.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_main.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/computer_top.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_register_file.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_sign_extender.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/display_hex.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_flip_flop_register.vhd
+  Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -60,8 +64,8 @@ read_vhdl -library xil_defaultlib {
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc
-set_property used_in_implementation false [get_files Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]
+read_xdc Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc
+set_property used_in_implementation false [get_files Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]
 
 set_param ips.enableIPCacheLiteLoad 0
 close [open __synthesis_is_running__ w]

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1551574496">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1551757599">
   <File Type="BITSTR-BMM" Name="computer_top_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="computer_top_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="computer_top_timing_summary_init.rpt"/>
@@ -216,6 +216,12 @@
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/imports/new/memfile_2.dat">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/memfile_3.dat">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>

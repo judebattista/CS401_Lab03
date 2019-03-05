@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.runs/synth_1'
+HD_PWD='Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
-| Date         : Sat Mar  2 16:57:10 2019
-| Host         : LAB-SCI-214-07 running 64-bit major release  (build 9200)
+| Date         : Mon Mar  4 19:47:59 2019
+| Host         : LAB-SCI-214-01 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file computer_top_timing_summary_routed.rpt -pb computer_top_timing_summary_routed.pb -rpx computer_top_timing_summary_routed.rpx -warn_on_violation
 | Design       : computer_top
 | Device       : 7a100t-csg324
@@ -54,7 +54,7 @@ Table of Contents
 --------------------
  There are 28 register/latch pins with no clock driven by root clock pin: CLKM (HIGH)
 
- There are 135 register/latch pins with no clock driven by root clock pin: display/clkdiv_reg[27]/Q (HIGH)
+ There are 103 register/latch pins with no clock driven by root clock pin: display/clkdiv_reg[27]/Q (HIGH)
 
 
 2. checking constant_clock
@@ -69,7 +69,7 @@ Table of Contents
 
 4. checking unconstrained_internal_endpoints
 --------------------------------------------
- There are 746 pins that are not constrained for maximum delay. (HIGH)
+ There are 394 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 
