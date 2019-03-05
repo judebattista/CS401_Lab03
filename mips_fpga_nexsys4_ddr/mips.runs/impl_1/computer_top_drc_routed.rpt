@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2.1 (win64) Build 2288692 Thu Jul 26 18:24:02 MDT 2018
-| Date         : Mon Mar  4 19:47:57 2019
-| Host         : LAB-SCI-214-01 running 64-bit major release  (build 9200)
+| Date         : Tue Mar  5 12:17:19 2019
+| Host         : LAB-SCI-214-20 running 64-bit major release  (build 9200)
 | Command      : report_drc -file computer_top_drc_routed.rpt -pb computer_top_drc_routed.pb -rpx computer_top_drc_routed.rpx
 | Design       : computer_top
 | Device       : xc7a100tcsg324-1

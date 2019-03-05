@@ -1,6 +1,6 @@
-webtalk_init -webtalk_dir Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/xsim.dir/mips_testbench_behav/webtalk/
+webtalk_init -webtalk_dir Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/xsim.dir/mips_testbench_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Tue Mar  5 12:03:25 2019" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Tue Mar  5 12:19:09 2019" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2018.2.1 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2288692" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -12,9 +12,9 @@ webtalk_add_data -client project -key target_family -value "not_applicable" -con
 webtalk_add_data -client project -key target_device -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key target_package -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
-webtalk_add_data -client project -key random_id -value "a27e6ca5-00a4-48f5-b1f8-31ae72cb4aac" -context "software_version_and_target_device"
+webtalk_add_data -client project -key random_id -value "a2fead5e-54ee-40b1-84c8-c497ab6917f7" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "bfc6d33675f34e59a51d26a1983c03b4" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "23" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "24" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz" -context "user_environment"
@@ -36,7 +36,7 @@ webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Processes -value "35" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "28" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "2.75_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "53948_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 267605206 -regid "" -xml Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/xsim.dir/mips_testbench_behav/webtalk/usage_statistics_ext_xsim.xml -html Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/xsim.dir/mips_testbench_behav/webtalk/usage_statistics_ext_xsim.html -wdm Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/xsim.dir/mips_testbench_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Compiler_Time -value "2.64_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Compiler_Memory -value "52976_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 2632118289 -regid "" -xml Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/xsim.dir/mips_testbench_behav/webtalk/usage_statistics_ext_xsim.xml -html Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/xsim.dir/mips_testbench_behav/webtalk/usage_statistics_ext_xsim.html -wdm Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/xsim.dir/mips_testbench_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

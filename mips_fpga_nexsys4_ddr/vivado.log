@@ -2,74 +2,80 @@
 # Vivado v2018.2.1 (64-bit)
 # SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
 # IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
-# Start of session at: Tue Mar  5 12:01:26 2019
-# Process ID: 4248
-# Current directory: Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1776 Z:\CS-401-1-CompArch\Lab03\mips_fpga_nexsys4_ddr\mips.xpr
-# Log file: Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/vivado.log
-# Journal file: Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr\vivado.jou
+# Start of session at: Tue Mar  5 12:14:41 2019
+# Process ID: 1052
+# Current directory: Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11296 Z:\CS-401-1-CompArch\MIPS_3\mips_fpga_nexsys4_ddr\mips.xpr
+# Log file: Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/vivado.log
+# Journal file: Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.xpr
-INFO: [Project 1-313] Project file moved from 'Z:/jbattista20/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr' since last save.
+open_project Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.xpr
+INFO: [Project 1-313] Project file moved from 'Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr' since last save.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
-open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 794.309 ; gain = 106.816
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 882.613 ; gain = 144.949
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Tue Mar  5 12:15:15 2019] Launched synth_1...
+Run output will be captured here: Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.runs/synth_1/runme.log
+[Tue Mar  5 12:15:15 2019] Launched impl_1...
+Run output will be captured here: Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.runs/impl_1/runme.log
 launch_simulation
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
 INFO: [SIM-utils-51] Simulation object is 'sim_1'
 INFO: [SIM-utils-54] Inspecting design source files for 'mips_testbench' in fileset 'sim_1'...
-INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile.dat'
-INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile_2.dat'
-INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile_3.dat'
+INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile.dat'
+INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile_2.dat'
+INFO: [SIM-utils-43] Exported 'Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim/memfile_3.dat'
 INFO: [USF-XSim-97] Finding global include files...
 INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
 INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
 "xvhdl --incr --relax -prj mips_testbench_vhdl.prj"
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity mips
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_instructions.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_instructions.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity imem
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_shift_left_by_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_shift_left_by_2.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity sl2
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_datapath.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity datapath
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_top.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity mips_top
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_alu.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity alu
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_adder.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity adder
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_data.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_mem_data.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity dmem
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_alu.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity aludec
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_decoder_main.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity maindec
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/computer_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/computer_top.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity computer_top
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_controller.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity controller
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_register_file.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity regfile
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_sign_extender.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_sign_extender.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity signext
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/display_hex.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/display_hex.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity display_hex
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_flip_flop_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_flip_flop_register.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity flopr
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sources_1/imports/new/mips_multiplexer_2_input.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity mux2
-INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.srcs/sim_1/imports/Desktop/mips_testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.srcs/sim_1/imports/Desktop/mips_testbench.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity mips_testbench
 INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
 INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
 Vivado Simulator 2018.2
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
 Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto bfc6d33675f34e59a51d26a1983c03b4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_testbench_behav xil_defaultlib.mips_testbench -log elaborate.log 
@@ -104,16 +110,16 @@ Compiling architecture behave of entity xil_defaultlib.dmem [\dmem(width=32)\]
 Compiling architecture mips_top of entity xil_defaultlib.mips_top [mips_top_default]
 Compiling architecture mips_testbench of entity xil_defaultlib.mips_testbench
 Built simulation snapshot mips_testbench_behav
-run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 827.938 ; gain = 0.000
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 907.863 ; gain = 0.000
 INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.sim/sim_1/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
-   with args "mips_testbench_behav -key {Behavioral:sim_1:Functional:mips_testbench} -tclbatch {mips_testbench.tcl} -view {Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mipsTest.wcfg} -log {simulate.log}"
+   with args "mips_testbench_behav -key {Behavioral:sim_1:Functional:mips_testbench} -tclbatch {mips_testbench.tcl} -view {Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mipsTest.wcfg} -log {simulate.log}"
 INFO: [USF-XSim-8] Loading simulator feature
 Vivado Simulator 2018.2
 Time resolution is 1 ps
-open_wave_config Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mipsTest.wcfg
+open_wave_config Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mipsTest.wcfg
 source mips_testbench.tcl
 # set curr_wave [current_wave_config]
 # if { [string length $curr_wave] == 0 } {
@@ -127,7 +133,8 @@ source mips_testbench.tcl
 # run 1000ns
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_testbench_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 832.469 ; gain = 4.531
-save_wave_config {Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mipsTest.wcfg}
-save_wave_config {Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mipsTest.wcfg}
-save_wave_config {Z:/CS-401-1-CompArch/Lab03/mips_fpga_nexsys4_ddr/mipsTest.wcfg}
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 925.027 ; gain = 17.164
+save_wave_config {Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mipsTest.wcfg}
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Mar  5 12:20:41 2019] Launched impl_1...
+Run output will be captured here: Z:/CS-401-1-CompArch/MIPS_3/mips_fpga_nexsys4_ddr/mips.runs/impl_1/runme.log
